@@ -1,0 +1,4 @@
+<layout id="MainLayout">
+    <label id="TimeText" text="" x="30" y="30" font="Gfx.FONT_LARGE" color="Gfx.COLOR_RED" />
+    <label id="DateText" text="" x="60" y="160" font="Gfx.FONT_MEDIUM" color="Gfx.COLOR_RED" />
+</layout>

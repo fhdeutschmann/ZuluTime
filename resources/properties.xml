@@ -1,0 +1,90 @@
+<resources>
+	<properties>
+		<property id="DisplayHours" type="boolean">false</property>
+		<property id="UseOh" type="boolean">false</property>
+		<property id="TimezoneToDisplay" type="number">0</property>
+	</properties>
+	
+	<settings>
+		<setting propertyKey="@Properties.DisplayHours" title="@Strings.str_ShowHours">
+			<settingConfig type="boolean" />
+		</setting>
+		
+		<setting propertyKey="@Properties.UseOh" title="@Strings.str_useOh">
+			<settingConfig type="boolean" />
+		</setting>
+		
+		<setting propertyKey="@Properties.TimezoneToDisplay" title="@Strings.str_timezoneToShow">
+			<settingConfig type="list">
+				<listEntry value="0">@Strings.str_zulu</listEntry>
+				<listEntry value="13">@Strings.str_juliet</listEntry>
+				<listEntry value="1">@Strings.str_alpha</listEntry>
+				<listEntry value="2">@Strings.str_bravo</listEntry>
+				<listEntry value="3">@Strings.str_charlie</listEntry>
+				<listEntry value="4">@Strings.str_delta</listEntry>
+				<listEntry value="5">@Strings.str_echo</listEntry>
+				<listEntry value="6">@Strings.str_foxtrot</listEntry>
+				<listEntry value="7">@Strings.str_golf</listEntry>
+				<listEntry value="8">@Strings.str_hotel</listEntry>
+				<listEntry value="9">@Strings.str_india</listEntry>
+				<listEntry value="10">@Strings.str_kilo</listEntry>
+				<listEntry value="11">@Strings.str_lima</listEntry>
+				<listEntry value="12">@Strings.str_mike</listEntry>
+				<listEntry value="-1">@Strings.str_november</listEntry>
+				<listEntry value="-2">@Strings.str_oscar</listEntry>
+				<listEntry value="-3">@Strings.str_papa</listEntry>
+				<listEntry value="-4">@Strings.str_quebec</listEntry>
+				<listEntry value="-5">@Strings.str_romeo</listEntry>
+				<listEntry value="-6">@Strings.str_sierra</listEntry>
+				<listEntry value="-7">@Strings.str_tango</listEntry>
+				<listEntry value="-8">@Strings.str_uniform</listEntry>
+				<listEntry value="-9">@Strings.str_victor</listEntry>
+				<listEntry value="-10">@Strings.str_whiskey</listEntry>
+				<listEntry value="-11">@Strings.str_xray</listEntry>
+				<listEntry value="-12">@Strings.str_yankee</listEntry>
+			</settingConfig>
+		</setting>
+	</settings>
+	
+	<strings>
+		<string id="mi_eastZones">EAST Zones (UTC+)</string>
+		<string id="mi_westZones">WEST Zones (UTC-)</string>
+	</strings>
+	
+	<menu id="MainMenu">
+		<menu-item id="tz_zulu">@Strings.str_zulu</menu-item>
+		<menu-item id="tz_juliet">@Strings.str_juliet</menu-item>
+		<menu-item id="mi_west">@Strings.mi_westZones</menu-item>
+		<menu-item id="mi_east">@Strings.mi_eastZones</menu-item>
+		<menu-item id="mi_hours">@Strings.str_ShowHours_menu</menu-item>
+		<menu-item id="mi_oh">@Strings.str_useOh_menu</menu-item>
+	</menu>
+	<menu id="EastMenu">
+		<menu-item id="tz_alpha">@Strings.str_alpha</menu-item>
+		<menu-item id="tz_bravo">@Strings.str_bravo</menu-item>
+		<menu-item id="tz_charlie">@Strings.str_charlie</menu-item>
+		<menu-item id="tz_delta">@Strings.str_delta</menu-item>
+		<menu-item id="tz_echo">@Strings.str_echo</menu-item>
+		<menu-item id="tz_foxtrot">@Strings.str_foxtrot</menu-item>
+		<menu-item id="tz_golf">@Strings.str_golf</menu-item>
+		<menu-item id="tz_hotel">@Strings.str_hotel</menu-item>
+		<menu-item id="tz_india">@Strings.str_india</menu-item>
+		<menu-item id="tz_kilo">@Strings.str_kilo</menu-item>
+		<menu-item id="tz_lima">@Strings.str_lima</menu-item>
+		<menu-item id="tz_mike">@Strings.str_mike</menu-item>
+	</menu>
+	<menu id="WestMenu">
+		<menu-item id="tz_november">@Strings.str_november</menu-item>
+		<menu-item id="tz_oscar">@Strings.str_oscar</menu-item>
+		<menu-item id="tz_papa">@Strings.str_papa</menu-item>
+		<menu-item id="tz_quebec">@Strings.str_quebec</menu-item>
+		<menu-item id="tz_romeo">@Strings.str_romeo</menu-item>
+		<menu-item id="tz_sierra">@Strings.str_sierra</menu-item>
+		<menu-item id="tz_tango">@Strings.str_tango</menu-item>
+		<menu-item id="tz_uniform">@Strings.str_uniform</menu-item>
+		<menu-item id="tz_victor">@Strings.str_victor</menu-item>
+		<menu-item id="tz_whiskey">@Strings.str_whiskey</menu-item>
+		<menu-item id="tz_xray">@Strings.str_xray</menu-item>
+		<menu-item id="tz_yankee">@Strings.str_yankee</menu-item>
+	</menu>
+</resources>

@@ -1,0 +1,40 @@
+<strings>
+    <string id="AppName">ZuluTime</string>
+    <string id="str_ShowHours_menu">pre-init</string>
+    <string id="str_ShowHours_menu_show">Show &apos;Hours&apos;</string>
+    <string id="str_ShowHours_menu_hide">Hide &apos;Hours&apos;</string>
+
+    <string id="str_useOh_menu">pre-init</string>
+    <string id="str_useOh_menu_zero">&apos;Zero&apos; for zero</string>
+    <string id="str_useOh_menu_oh">&apos;Oh&apos; for zero</string>
+
+    <string id="str_ShowHours">Show &apos;Hours&apos;:</string>
+    <string id="str_useOh">Use &apos;Oh&apos; for zero:</string>
+    <string id="str_timezoneToShow">Timezone to show:</string>
+    <string id="str_zulu">Zulu (UTC)</string>
+    <string id="str_juliet">Juliet (Local time)</string>
+    <string id="str_alpha">Alpha (UTC +1:00)</string>
+    <string id="str_bravo">Bravo (UTC +2:00)</string>
+    <string id="str_charlie">Charlie (UTC +3:00)</string>
+    <string id="str_delta">Delta (UTC +4:00)</string>
+    <string id="str_echo">Echo (UTC +5:00)</string>
+    <string id="str_foxtrot">Foxtrot (UTC +6:00)</string>
+    <string id="str_golf">Golf (UTC +7:00)</string>
+    <string id="str_hotel">Hotel (UTC +8:00)</string>
+    <string id="str_india">India (UTC +9:00)</string>
+    <string id="str_kilo">Kilo (UTC +10:00)</string>
+    <string id="str_lima">Lima (UTC +11:00)</string>
+    <string id="str_mike">Mike (UTC +12:00)</string>
+    <string id="str_november">November (UTC -1:00)</string>
+    <string id="str_oscar">Oscar (UTC -2:00)</string>
+    <string id="str_papa">Papa (UTC -3:00)</string>
+    <string id="str_quebec">Quebec (UTC -4:00)</string>
+    <string id="str_romeo">Romeo (UTC -5:00)</string>
+    <string id="str_sierra">Sierra (UTC -6:00)</string>
+    <string id="str_tango">Tango (UTC -7:00)</string>
+    <string id="str_uniform">Uniform (UTC -8:00)</string>
+    <string id="str_victor">Victor (UTC -9:00)</string>
+    <string id="str_whiskey">Whiskey (UTC -10:00)</string>
+    <string id="str_xray">X-Ray (UTC -11:00)</string>
+    <string id="str_yankee">Yankee (UTC -12:00)</string>
+</strings>
